@@ -14,10 +14,10 @@ Zhiyuan Zeng, Yizhong Wang, Hannaneh Hajishirzi, Pang Wei Koh
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{zeng2025evaltree,
+@inproceedings{zeng2025evaltree,
   title={EvalTree: Profiling Language Model Weaknesses via Hierarchical Capability Trees},
   author={Zeng, Zhiyuan and Wang, Yizhong and Hajishirzi, Hannaneh and Koh, Pang Wei},
-  journal={Conference on Language Modeling (COLM)},
+  booktitle={Conference on Language Modeling (COLM)},
   year={2025}
 }
 ```

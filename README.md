@@ -4,7 +4,7 @@ This repository contains the **code and data** for the paper:
 
 **EvalTree: Profiling Language Model Weaknesses via Hierarchical Capability Trees**
 Zhiyuan Zeng, Yizhong Wang, Hannaneh Hajishirzi, Pang Wei Koh
-*Preprint.*
+*COLM 2025*
 
 ## 🔗 Resources
 - 📄 **[Paper](https://arxiv.org/abs/2503.08893)**
@@ -17,7 +17,7 @@ If you find our work useful, please consider citing:
 @article{zeng2025evaltree,
   title={EvalTree: Profiling Language Model Weaknesses via Hierarchical Capability Trees},
   author={Zeng, Zhiyuan and Wang, Yizhong and Hajishirzi, Hannaneh and Koh, Pang Wei},
-  journal={arXiv preprint 2503.08893},
+  journal={Conference on Language Modeling (COLM)},
   year={2025}
 }
 ```

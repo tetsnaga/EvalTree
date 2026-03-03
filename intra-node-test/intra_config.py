@@ -6,7 +6,7 @@ from __future__ import annotations
 import os
 
 # Default EvalTree dataset root relative to repo root (DILL)
-DEFAULT_EVALTREE_ROOT = os.path.join(os.path.dirname(__file__), "EvalTree", "Datasets")
+DEFAULT_EVALTREE_ROOT = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Datasets")
 
 # Tree path components (match EvalTree README)
 DEFAULT_SPLIT = "full"

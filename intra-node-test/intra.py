@@ -291,7 +291,7 @@ def main() -> None:
     parser.add_argument("--no_plot", action="store_true", help="Do not show histogram (only save if --output_histogram)")
     args = parser.parse_args()
 
-    evaltree_root = args.evaltree_root or os.path.join(os.path.dirname(__file__), "EvalTree", "Datasets")
+    evaltree_root = args.evaltree_root or DEFAULT_EVALTREE_ROOT
     min_instances = args.min_nodes if args.min_nodes is not None else args.min_instances
 
     result = run_intra_node_analysis(
@@ -346,8 +346,20 @@ def main() -> None:
             print("Most nodes are unreliable after intra-node analysis; consider skipping inter-node analysis.")
 
     if result["mean_taus"].size:
+        if not args.output_histogram and not args.no_plot:
+            os.makedirs("tau_histograms", exist_ok=True)
+            args.output_histogram = os.path.join(
+                "tau_histograms",
+                f"intra_histogram"
+                f"_B{args.B}"
+                f"_min{min_instances}"
+                f"_tau{args.min_tau_reliable}"
+                f"_ci{args.max_ci_width_unreliable}"
+                f".png",
+            )
         if args.output_histogram:
             plot_histogram(result["mean_taus"], out_path=args.output_histogram)
+            print(f"Histogram saved to {args.output_histogram}")
         elif not args.no_plot:
             plot_histogram(result["mean_taus"], out_path=None)
 

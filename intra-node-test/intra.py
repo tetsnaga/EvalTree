@@ -255,7 +255,29 @@ def run_intra_node_analysis(
     }
 
 
-def plot_histogram(mean_taus: np.ndarray, out_path: str | None = None) -> None:
+def _shorten_model_name(name: str) -> str:
+    """Produce a compact label for a model name."""
+    replacements = [
+        ("Llama-3.1-8B-Instruct", "Llama3.1-8B"),
+        ("Llama-3.1-Tulu-3-8B", "Tulu3-8B"),
+        ("dart-math-llama3-8b-uniform", "DartMath-8B"),
+        ("gpt-4o-mini-2024-07-18", "GPT4o-mini"),
+        ("gpt-4o-2024-08-06", "GPT4o"),
+        ("gpt-3.5-turbo-0613", "GPT3.5"),
+        ("deepseek-coder-6.7b-base", "DSCoder-6.7B"),
+    ]
+    for full, short in replacements:
+        if name == full:
+            return short
+    return name
+
+
+def plot_histogram(
+    mean_taus: np.ndarray,
+    out_path: str | None = None,
+    benchmark: str = "",
+    models: list[str] | None = None,
+) -> None:
     """Plot histogram of mean Kendall's Tau across nodes."""
     import matplotlib.pyplot as plt
 
@@ -263,7 +285,13 @@ def plot_histogram(mean_taus: np.ndarray, out_path: str | None = None) -> None:
     ax.hist(mean_taus, bins=min(30, max(1, len(mean_taus))), edgecolor="black", alpha=0.7)
     ax.set_xlabel("Mean Kendall's τ (ranking stability)")
     ax.set_ylabel("Number of nodes")
-    ax.set_title("Intra-node ranking stability (bootstrap)")
+    title = "Intra-node ranking stability (bootstrap)"
+    if benchmark:
+        title += f" — {benchmark}"
+    if models:
+        short = [_shorten_model_name(m) for m in models]
+        title += f"\n{short[0]} vs {short[1]}" if len(short) == 2 else f"\n{', '.join(short)}"
+    ax.set_title(title)
     fig.tight_layout()
     if out_path:
         fig.savefig(out_path, dpi=150)
@@ -348,9 +376,11 @@ def main() -> None:
     if result["mean_taus"].size:
         if not args.output_histogram and not args.no_plot:
             os.makedirs("tau_histograms", exist_ok=True)
+            short_models = "_vs_".join(_shorten_model_name(m) for m in args.models)
             args.output_histogram = os.path.join(
                 "tau_histograms",
-                f"intra_histogram"
+                f"{args.benchmark}"
+                f"_{short_models}"
                 f"_B{args.B}"
                 f"_min{min_instances}"
                 f"_tau{args.min_tau_reliable}"
@@ -358,10 +388,12 @@ def main() -> None:
                 f".png",
             )
         if args.output_histogram:
-            plot_histogram(result["mean_taus"], out_path=args.output_histogram)
+            plot_histogram(result["mean_taus"], out_path=args.output_histogram,
+                           benchmark=args.benchmark, models=args.models)
             print(f"Histogram saved to {args.output_histogram}")
         elif not args.no_plot:
-            plot_histogram(result["mean_taus"], out_path=None)
+            plot_histogram(result["mean_taus"], out_path=None,
+                           benchmark=args.benchmark, models=args.models)
 
 
 if __name__ == "__main__":

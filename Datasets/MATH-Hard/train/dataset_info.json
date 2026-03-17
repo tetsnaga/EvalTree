@@ -1,0 +1,108 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "math-hard",
+  "dataset_size": 4129479,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/train/algebra.jsonl": {
+      "num_bytes": 411599,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/train/counting_and_probability.jsonl": {
+      "num_bytes": 373151,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/train/geometry.jsonl": {
+      "num_bytes": 726012,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/train/intermediate_algebra.jsonl": {
+      "num_bytes": 567558,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/train/number_theory.jsonl": {
+      "num_bytes": 333172,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/train/prealgebra.jsonl": {
+      "num_bytes": 239692,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/train/precalculus.jsonl": {
+      "num_bytes": 328817,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/test/algebra.jsonl": {
+      "num_bytes": 283642,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/test/counting_and_probability.jsonl": {
+      "num_bytes": 134862,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/test/geometry.jsonl": {
+      "num_bytes": 227096,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/test/intermediate_algebra.jsonl": {
+      "num_bytes": 390649,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/test/number_theory.jsonl": {
+      "num_bytes": 151574,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/test/prealgebra.jsonl": {
+      "num_bytes": 179411,
+      "checksum": null
+    },
+    "hf://datasets/lighteval/MATH-Hard@cf0716b8bafa192bcb6b455b0679538787dc43f0/test/precalculus.jsonl": {
+      "num_bytes": 241935,
+      "checksum": null
+    }
+  },
+  "download_size": 4589170,
+  "features": {
+    "problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "level": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "solution": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 8718649,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2689342,
+      "num_examples": 2304,
+      "dataset_name": "math-hard"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1440137,
+      "num_examples": 1324,
+      "dataset_name": "math-hard"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

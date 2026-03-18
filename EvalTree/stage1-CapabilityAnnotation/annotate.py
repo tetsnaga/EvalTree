@@ -1,15 +1,34 @@
 import os
 import json
-import datasets
 import argparse
 import functools
 import multiprocessing
+
+import datasets
+import pandas as pd
 from tqdm import tqdm
 from utils.api_inference import create_OpenAIclient, openai_completion, prompt_to_chatml
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--dataset", type = str, required = True, choices = ("MATH", "WildChat10K", "DS-1000", ) + ("Chatbot-Arena", "ShareGPT10K", "MMLU", "CollegeMath", ))
+parser.add_argument(
+    "--dataset",
+    type = str,
+    required = True,
+    choices = (
+        "MATH",
+        "WildChat10K",
+        "DS-1000",
+        "Chatbot-Arena",
+        "ShareGPT10K",
+        "MMLU",
+        "CollegeMath",
+        "BBH",
+        "GPQA",
+        "MATH-Hard",
+        "MMLU-Pro",
+    ),
+)
 parser.add_argument("--num_procs", type = int, default = 64)
 parser.add_argument("--annotation_model", type = str, default = "gpt-4o-mini", choices = ("gpt-4o-mini", ))
 args = parser.parse_args()
@@ -33,6 +52,36 @@ elif args.dataset == "MMLU" :
     INPUT_KEY, OUTPUT_KEY = "question", "[gpt-4o-mini]_answer"
     with open("Datasets/MMLU/dataset.json", "r") as fin :
         dataset = json.load(fin)
+elif args.dataset == "BBH" :
+    # Complex reasoning questions from BIG-Bench Hard.
+    PROMPT = "bbh"
+    INPUT_KEY, OUTPUT_KEY = "input", "target"
+    df = pd.read_parquet("Datasets/BBH/dataset.parquet")
+    dataset = df.to_dict(orient = "records")
+elif args.dataset == "GPQA" :
+    # GPQA Diamond: scientific QA; choose revised question/answer when available, else fall back.
+    PROMPT = "gpqa-diamond"
+    INPUT_KEY, OUTPUT_KEY = "input", "target"
+    df = pd.read_parquet("Datasets/GPQA/dataset.parquet")
+    dataset = []
+    for _, row in df.iterrows() :
+        q = row.get("Extra Revised Question") or row.get("Question")
+        a = row.get("Extra Revised Correct Answer") or row.get("Correct Answer")
+        if pd.isna(q) or pd.isna(a) :
+            continue
+        dataset.append({"input" : q, "target" : a})
+elif args.dataset == "MATH-Hard" :
+    # Same math-style prompt as MATH.
+    PROMPT = "mathematics"
+    INPUT_KEY, OUTPUT_KEY = "problem", "solution"
+    df = pd.read_parquet("Datasets/MATH-Hard/dataset.parquet")
+    dataset = df.to_dict(orient = "records")
+elif args.dataset == "MMLU-Pro" :
+    # Harder, more compositional variant of MMLU.
+    PROMPT = "mmlu-pro"
+    INPUT_KEY, OUTPUT_KEY = "question", "answer"
+    df = pd.read_parquet("Datasets/MMLU-Pro/dataset.parquet")
+    dataset = df.to_dict(orient = "records")
 elif args.dataset in ("CollegeMath", ) :
     PROMPT = "mathematics"
     INPUT_KEY, OUTPUT_KEY = "question", "[gpt-4o-mini]_solution"

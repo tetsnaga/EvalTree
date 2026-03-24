@@ -8,7 +8,7 @@ from utils.common import manual_seed
 from utils.api_inference import create_OpenAIclient, openai_completion, prompt_to_chatml
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--dataset", type = str, required = True, choices = ("MATH", "WildChat10K", "DS-1000", ))
+parser.add_argument("--dataset", type = str, required = True, choices = ("MATH", "WildChat10K", "DS-1000", "MMLU", "MATH-Hard", "MMLU-Pro", "BBH", "GPQA", ))
 parser.add_argument("--tree_path", type = str, required = True)
 
 parser.add_argument("--description_model", type = str, default = "gpt-4o-mini", choices = ("gpt-4o-mini", ))
@@ -20,7 +20,7 @@ TREE = torch.load(os.path.join("Datasets/{}/EvalTree".format(args.dataset), "{}.
 with open("Datasets/{}/EvalTree/stage1-CapabilityAnnotation/[annotation={}].json".format(args.dataset, args.description_model), "r") as fin :
     CAPABILITIES = json.load(fin)
 
-if args.dataset == "MATH" :
+if args.dataset in ("MATH", "MATH-Hard", ) :
     PROMPT = "mathematics"
 elif args.dataset in ("WildChat10K", "Chatbot-Arena", ) :
     PROMPT = "instruction-following"
@@ -28,6 +28,12 @@ elif args.dataset == "DS-1000" :
     PROMPT = "ds-1000"
 elif args.dataset == "MMLU" :
     PROMPT = "mmlu"
+elif args.dataset == "MMLU-Pro" :
+    PROMPT = "mmlu-pro"
+elif args.dataset == "BBH" :
+    PROMPT = "bbh"
+elif args.dataset == "GPQA" :
+    PROMPT = "gpqa-diamond"
 else :
     raise NotImplementedError("dataset = {}".format(args.dataset))
 with open("EvalTree/stage4-CapabilityDescription/prompts/{}.txt".format(PROMPT), "r") as fin :

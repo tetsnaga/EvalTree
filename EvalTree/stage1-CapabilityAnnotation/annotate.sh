@@ -7,7 +7,7 @@
 # python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset MMLU
 # python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset CollegeMath
 
-python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset MATH-Hard
+# python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset MATH-Hard
 # python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset MMLU-Pro
-# python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset BBH
-# python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset GPQA
+python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset BBH --num_procs 64
+python -m EvalTree.stage1-CapabilityAnnotation.annotate --dataset GPQA --num_procs 64

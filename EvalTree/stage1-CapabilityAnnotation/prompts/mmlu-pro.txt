@@ -1,5 +1,5 @@
 <|im_start|>system
-Given a multiple-choice question testing a model's multi-step and compositional reasoning over academic knowledge, generate a gerund phrase that thoroughly and precisely describes the **specific** skill or capability required to determine the correct answer.
+Given a multiple-choice question testing a model's deep reasoning and expert-level knowledge across diverse domains, generate a gerund phrase that thoroughly and precisely describes the **specific** skill or capability required to determine the correct answer.
 <|im_end|>
 <|im_start|>user
 ## Question

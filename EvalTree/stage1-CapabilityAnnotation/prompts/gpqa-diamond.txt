@@ -1,5 +1,5 @@
 <|im_start|>system
-Given a multiple-choice question testing a model's advanced scientific understanding and analytical reasoning, generate a gerund phrase that thoroughly and precisely describes the **specific** skill or capability required to determine the correct answer.
+Given a graduate-level science question with multiple answer choices and an explanation of the correct answer, generate a gerund phrase that thoroughly and precisely describes the **specific** skill or capability required to determine the correct answer.
 <|im_end|>
 <|im_start|>user
 ## Question

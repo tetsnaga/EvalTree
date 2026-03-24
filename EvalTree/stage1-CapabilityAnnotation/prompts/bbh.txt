@@ -1,5 +1,5 @@
 <|im_start|>system
-Given a multiple-choice question testing a model's complex abstract reasoning and compositional generalization, generate a gerund phrase that thoroughly and precisely describes the **specific** skill or capability required to determine the correct answer.
+Given a challenging reasoning task with a question and its correct answer (including a chain-of-thought explanation if available), generate a gerund phrase that thoroughly and precisely describes the **specific** skill or capability required to determine the correct answer.
 <|im_end|>
 <|im_start|>user
 ## Question

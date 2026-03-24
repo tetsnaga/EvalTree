@@ -1,8 +1,7 @@
 import os
 import json
 import argparse
-import functools
-import multiprocessing
+import concurrent.futures
 
 import datasets
 import pandas as pd
@@ -29,7 +28,7 @@ parser.add_argument(
         "MMLU-Pro",
     ),
 )
-parser.add_argument("--num_procs", type = int, default = 64)
+parser.add_argument("--num_procs", type = int, default = 1)
 parser.add_argument("--annotation_model", type = str, default = "gpt-4o-mini", choices = ("gpt-4o-mini", ))
 args = parser.parse_args()
 
@@ -37,7 +36,7 @@ args = parser.parse_args()
 if args.dataset == "MATH" :
     PROMPT = "mathematics"
     INPUT_KEY, OUTPUT_KEY = "problem", "solution"
-    dataset = datasets.load_dataset("lighteval/MATH")["test"].to_list()
+    dataset = datasets.load_dataset("hendrycks/competition_math")["test"].to_list()
 elif args.dataset in ("WildChat10K", "Chatbot-Arena", "ShareGPT10K", ) :
     PROMPT = "instruction-following"
     INPUT_KEY, OUTPUT_KEY = "instruction", "response"
@@ -103,15 +102,8 @@ def Process(instance) :
     chatml = prompt_to_chatml(PROMPT.format_map(dict(input = instance[INPUT_KEY], output = instance[OUTPUT_KEY])))
     client = create_OpenAIclient(dict(api_key = os.getenv("OpenAI_API_KEY")))
     return openai_completion(client, chatml, OPENAI_KWARGS)
-with multiprocessing.Pool(args.num_procs) as p :
-    _Process = functools.partial(Process)
-    outputs = list(
-        tqdm(
-            p.imap(_Process, dataset),
-            desc = "dataset",
-            total = len(dataset),
-        )
-    )
+with concurrent.futures.ThreadPoolExecutor(max_workers = args.num_procs) as executor :
+    outputs = list(tqdm(executor.map(Process, dataset), desc = "dataset", total = len(dataset)))
 
 
 print("cost = {}".format(sum([output["cost"] for output in outputs])))

@@ -1,0 +1,1554 @@
+{
+  "description": "Integrating and analyzing complex scientific data across mathematical, molecular, and biological domains.",
+  "subtrees": {
+    "0": {
+      "description": "Integrating and analyzing molecular and biological data to predict chemical behavior and evaluate genetic integrity.",
+      "subtrees": {
+        "0": {
+          "description": "Integrating and analyzing complex biological data and genetic sequences for comprehensive evaluation of immune responses and coding integrity.",
+          "subtrees": {
+            "0": {
+              "description": "Analyzing nucleotide sequences and genetic constructs for expression compatibility and identification of coding integrity.",
+              "subtrees": [
+                {
+                  "description": "Analyzing nucleotide sequences to identify premature stop codons in mRNA transcripts",
+                  "subtrees": 74
+                },
+                {
+                  "description": "Analyzing genetic constructs for proper open reading frame alignment and expression compatibility.",
+                  "subtrees": 101
+                },
+                {
+                  "description": "Analyzing nucleotide sequences to identify the correct plasmid for protein expression.",
+                  "subtrees": 127
+                }
+              ],
+              "distinguishing": "Identifying premature stop codons in mRNA  \nEnsuring open reading frame alignment and compatibility  \nSelecting the correct plasmid for protein expression  "
+            },
+            "1": {
+              "description": "Integrating and evaluating complex biological data and experimental methodologies to analyze immune responses and cellular functions.",
+              "subtrees": {
+                "0": {
+                  "description": "Evaluating experimental methodologies for assessing cellular organelle function and metabolic activity.",
+                  "subtrees": 43
+                },
+                "1": {
+                  "description": "Integrating and analyzing complex biological and molecular data to elucidate interactions, regulatory mechanisms, and functional implications in immune responses and pathogen identification.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing complex biological data to assess genetic variability and functional implications in immune responses.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing genetic variability and interactions to assess functional implications in immune cell populations and gene expression.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing genetic variations and interactions to assess functional implications in gene expression.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing genetic interactions through experimental data interpretation and phenotypic assessment.",
+                                  "subtrees": 7
+                                },
+                                {
+                                  "description": "Analyzing genetic mutations to identify functional changes in gene expression.",
+                                  "subtrees": 28
+                                }
+                              ],
+                              "distinguishing": "Experimental data interpretation of genetic interactions  \nIdentification of functional changes from genetic mutations"
+                            },
+                            "1": {
+                              "description": "Analyzing genetic variability in immune cell populations through sequencing techniques.",
+                              "subtrees": 87
+                            }
+                          },
+                          "distinguishing": "Assessing gene expression implications of genetic variations  \nSequencing immune cell genetic variability"
+                        },
+                        "1": {
+                          "description": "Analyzing and interpreting complex data discrepancies in bioinformatics.",
+                          "subtrees": 167
+                        }
+                      },
+                      "distinguishing": "Assessing genetic variability in immune cells  \nInterpreting discrepancies in bioinformatics data"
+                    },
+                    "1": {
+                      "description": "Analyzing molecular interactions and imaging data to elucidate regulatory mechanisms and localization patterns.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing fluorescence microscopy images for specific signal localization patterns.",
+                          "subtrees": 75
+                        },
+                        "1": {
+                          "description": "Analyzing molecular interactions and regulatory mechanisms in chromatin dynamics and signaling pathways.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing gene regulation through epigenetic modifications and chromatin dynamics.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing chromatin accessibility and transcription factor binding dynamics in relation to fixation methods.",
+                                  "subtrees": 13
+                                },
+                                {
+                                  "description": "Analyzing molecular mechanisms of gene regulation through epigenetic modifications.",
+                                  "subtrees": 96
+                                }
+                              ],
+                              "distinguishing": "Chromatin accessibility and transcription factor binding analysis  \nEpigenetic modification mechanisms in gene regulation"
+                            },
+                            "1": {
+                              "description": "Analyzing protein interactions and complexes in signaling pathways and chromatin dynamics.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing protein complexes involved in chromatin dynamics and cellular signaling pathways.",
+                                  "subtrees": 151
+                                },
+                                {
+                                  "description": "Analyzing protein interactions and functional consequences of mutations in signaling pathways.",
+                                  "subtrees": 157
+                                }
+                              ],
+                              "distinguishing": "Chromatin dynamics and signaling protein complexes  \nMutational impacts on signaling protein interactions"
+                            }
+                          },
+                          "distinguishing": "Gene regulation via epigenetic modifications  \nProtein interactions in signaling pathways"
+                        }
+                      },
+                      "distinguishing": "Fluorescence microscopy signal localization  \nChromatin dynamics and signaling pathway analysis"
+                    },
+                    "2": {
+                      "description": "Conducting molecular analyses and evaluating interactions to inform pathogen identification and computational modeling.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Evaluating and analyzing molecular interactions to inform computational modeling and understand cellular mechanisms.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing molecular interactions and mechanisms in cellular transport and viral replication processes.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing molecular interactions and mechanisms in viral replication processes.",
+                                  "subtrees": 10
+                                },
+                                {
+                                  "description": "Analyzing cellular transport mechanisms and understanding molecular interactions.",
+                                  "subtrees": 26
+                                }
+                              ],
+                              "distinguishing": "Viral replication mechanisms analysis  \nCellular transport mechanisms analysis"
+                            },
+                            "1": {
+                              "description": "Evaluating molecular interactions through preliminary binding assays to inform computational modeling.",
+                              "subtrees": 106
+                            }
+                          },
+                          "distinguishing": "Cellular transport and viral replication analysis  \nBinding assays for computational modeling"
+                        },
+                        "1": {
+                          "description": "Conducting comprehensive molecular analysis and assay development for pathogen identification and quantification.",
+                          "subtrees": 156
+                        }
+                      },
+                      "distinguishing": "Molecular interaction analysis for computational modeling  \nPathogen identification and quantification through molecular assays"
+                    }
+                  },
+                  "distinguishing": "Assessing genetic variability in immune responses  \nElucidating regulatory mechanisms and localization patterns  \nInforming pathogen identification through molecular analyses  "
+                }
+              },
+              "distinguishing": "Evaluating organelle function and metabolism  \nIntegrating biological data for immune analysis"
+            }
+          },
+          "distinguishing": "Nucleotide sequence analysis for coding integrity  \nIntegration of biological data for immune response evaluation"
+        },
+        "1": {
+          "description": "Analyzing and interpreting molecular structures, reactions, and spectral data to predict chemical behavior and synthesis pathways.",
+          "subtrees": {
+            "0": {
+              "description": "Analyzing molecular structures to determine hydrogen atom counts and distinct hydrogen environments through systematic transformations.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing and identifying distinct hydrogen environments in molecular structures through systematic chemical transformations.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing molecular structures and identifying distinct hydrogen environments through systematic chemical transformations.",
+                      "subtrees": 47
+                    },
+                    {
+                      "description": "Analyzing molecular structures to identify chemically distinct hydrogen environments in organic compounds.",
+                      "subtrees": 121
+                    }
+                  ],
+                  "distinguishing": "Analyzing hydrogen environments via chemical transformations  \nIdentifying distinct hydrogen environments in organic compounds"
+                },
+                "1": {
+                  "description": "Analyzing molecular structures and stoichiometric relationships to determine hydrogen atom counts.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing molecular structures and stoichiometric relationships to deduce hydrogen atom counts.",
+                      "subtrees": 23
+                    },
+                    {
+                      "description": "Analyzing molecular structures to identify and count chemically distinct hydrogen atoms.",
+                      "subtrees": 71
+                    }
+                  ],
+                  "distinguishing": "Deducing total hydrogen atom counts  \nIdentifying distinct hydrogen atom types"
+                }
+              },
+              "distinguishing": "Identifying distinct hydrogen environments in molecules  \nDetermining hydrogen atom counts through stoichiometry"
+            },
+            "1": {
+              "description": "Analyzing and calculating chemical reactions, stoichiometric relationships, and their effects on reaction kinetics and thermodynamic properties.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing chemical reactions and stoichiometric relationships to determine atomic composition.",
+                  "subtrees": 63
+                },
+                "1": {
+                  "description": "Calculating equilibrium and stoichiometric relationships in chemical reactions.",
+                  "subtrees": [
+                    {
+                      "description": "Calculating the stoichiometric requirements for acid-base reactions and determining the resulting pH from concentration changes.",
+                      "subtrees": 162
+                    },
+                    {
+                      "description": "Calculating equilibrium concentrations and applying stability constants to determine complex formation percentages.",
+                      "subtrees": 197
+                    }
+                  ],
+                  "distinguishing": "Stoichiometric calculations for acid-base reactions and pH changes  \nEquilibrium concentration calculations and complex formation percentages"
+                },
+                "2": {
+                  "description": "Analyzing the effects of pH on reaction kinetics and thermodynamic properties of chemical species.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing thermodynamic and kinetic properties of chemical species in varying pH environments.",
+                      "subtrees": 21
+                    },
+                    {
+                      "description": "Analyzing the impact of pH changes on reaction kinetics and equilibrium.",
+                      "subtrees": 137
+                    }
+                  ],
+                  "distinguishing": "Thermodynamic and kinetic analysis in varying pH  \nImpact of pH on reaction kinetics and equilibrium"
+                }
+              },
+              "distinguishing": "Determining atomic composition in reactions  \nCalculating equilibrium in chemical reactions  \nAssessing pH effects on kinetics and thermodynamics  "
+            },
+            "2": {
+              "description": "Evaluating and predicting chemical reactivity and synthesis pathways through structural analysis and strategic application of reagents.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing and predicting organic reaction mechanisms and synthesis pathways through structural evaluation and strategic reagent application.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing and predicting organic reaction mechanisms and synthesis pathways.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing and predicting organic synthesis mechanisms and pathways.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing and predicting organic synthesis pathways through systematic examination of reaction mechanisms and product structures.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing reaction mechanisms and predicting product structures through systematic application of organic synthesis principles.",
+                                  "subtrees": 27
+                                },
+                                {
+                                  "description": "Analyzing reaction mechanisms and predicting product structures through systematic organic synthesis pathways.",
+                                  "subtrees": 60
+                                }
+                              ],
+                              "distinguishing": "Analyzing mechanisms and predicting structures through synthesis principles.  \nAnalyzing mechanisms and predicting structures through synthesis pathways."
+                            },
+                            "1": {
+                              "description": "Analyzing and predicting organic synthesis reaction mechanisms and product structures.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing reaction mechanisms and predicting product structures in organic synthesis.",
+                                  "subtrees": 18
+                                },
+                                {
+                                  "description": "Analyzing reaction mechanisms and predicting product structures through organic synthesis knowledge.",
+                                  "subtrees": 190
+                                }
+                              ],
+                              "distinguishing": "Analyzing mechanisms and predicting products  \nApplying organic synthesis knowledge for analysis and prediction"
+                            }
+                          },
+                          "distinguishing": "Pathway analysis through reaction mechanisms  \nMechanism analysis with product structures"
+                        },
+                        "1": {
+                          "description": "Analyzing reaction mechanisms and predicting product structures through systematic application of organic chemistry principles.",
+                          "subtrees": 90
+                        }
+                      },
+                      "distinguishing": "Organic synthesis mechanism analysis  \nProduct structure prediction through chemistry principles"
+                    },
+                    "1": {
+                      "description": "Analyzing reaction mechanisms and optimizing organic synthesis through structural evaluation and reagent selection.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing reaction mechanisms and selecting suitable reagents and catalysts for organic synthesis.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing reaction mechanisms and identifying suitable catalysts for organic synthesis.",
+                              "subtrees": 105
+                            },
+                            "1": {
+                              "description": "Analyzing reaction mechanisms and selecting appropriate reagents and catalysts for organic transformations.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing reaction mechanisms and identifying suitable reagents and catalysts for organic transformations.",
+                                  "subtrees": 100
+                                },
+                                {
+                                  "description": "Analyzing reaction mechanisms and identifying appropriate reagents for organic transformations.",
+                                  "subtrees": 113
+                                }
+                              ],
+                              "distinguishing": "Identifying suitable reagents and catalysts  \nIdentifying appropriate reagents"
+                            }
+                          },
+                          "distinguishing": "Identifying suitable catalysts for organic synthesis  \nSelecting appropriate reagents for organic transformations"
+                        },
+                        "1": {
+                          "description": "Analyzing reaction mechanisms and evaluating structural transformations and reactivity in organic compounds.",
+                          "subtrees": [
+                            {
+                              "description": "Analyzing reaction mechanisms and evaluating the reactivity of conjugated systems in organic compounds.",
+                              "subtrees": 25
+                            },
+                            {
+                              "description": "Analyzing reaction mechanisms and identifying structural transformations in organic compounds.",
+                              "subtrees": 142
+                            }
+                          ],
+                          "distinguishing": "Evaluating reactivity of conjugated systems  \nIdentifying structural transformations"
+                        }
+                      },
+                      "distinguishing": "Reagent and catalyst selection for synthesis  \nStructural evaluation of transformations and reactivity"
+                    },
+                    "2": {
+                      "description": "Analyzing chemical reaction pathways to identify appropriate starting materials for diketone synthesis.",
+                      "subtrees": 138
+                    },
+                    "3": {
+                      "description": "Analyzing molecular structures and predicting product formation through mechanistic understanding of organic reactions.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing molecular structures and predicting product formation through mechanistic understanding of organic reactions.",
+                          "subtrees": 76
+                        },
+                        "1": {
+                          "description": "Analyzing and predicting product formation through reaction mechanisms in organic chemistry.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing reaction mechanisms and predicting product formation through sequential organic transformations.",
+                              "subtrees": 89
+                            },
+                            "1": {
+                              "description": "Analyzing reaction mechanisms to predict product formation in organic chemistry.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing reaction mechanisms to predict product formation in organic chemistry.",
+                                  "subtrees": 33
+                                },
+                                {
+                                  "description": "Analyzing reaction mechanisms to predict product formation in organic chemistry.",
+                                  "subtrees": 117
+                                }
+                              ],
+                              "distinguishing": "Predicting product outcomes  \nMechanism analysis"
+                            },
+                            "2": {
+                              "description": "Analyzing reaction mechanisms and predicting product formation in organic synthesis.",
+                              "subtrees": 152
+                            }
+                          },
+                          "distinguishing": "Analyzing mechanisms for sequential product prediction  \nPredicting products from reaction mechanisms  \nAnalyzing mechanisms for product prediction in synthesis  "
+                        }
+                      },
+                      "distinguishing": "Molecular structure analysis and product prediction  \nReaction mechanism analysis and product forecasting"
+                    },
+                    "4": {
+                      "description": "Analyzing and synthesizing complex organic transformations through strategic multi-step reagent application.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing and synthesizing organic compounds through strategic and sequential reagent application.",
+                          "subtrees": [
+                            {
+                              "description": "Analyzing reaction mechanisms and synthesizing organic compounds through strategic reagent selection.",
+                              "subtrees": 61
+                            },
+                            {
+                              "description": "Analyzing reaction mechanisms and synthesizing organic compounds through sequential reagent application.",
+                              "subtrees": 80
+                            }
+                          ],
+                          "distinguishing": "Strategic reagent selection for synthesis  \nSequential reagent application for synthesis"
+                        },
+                        "1": {
+                          "description": "Analyzing reaction mechanisms and synthesizing multi-step organic pathways.",
+                          "subtrees": 102
+                        },
+                        "2": {
+                          "description": "Analyzing reaction mechanisms and synthesizing sequences of reagents for organic transformations.",
+                          "subtrees": 37
+                        },
+                        "3": {
+                          "description": "Analyzing reaction mechanisms and synthesizing complex organic compounds through strategic functional group transformations.",
+                          "subtrees": 183
+                        }
+                      },
+                      "distinguishing": "Sequential reagent application for organic synthesis  \nMechanism analysis for multi-step pathways  \nReagent sequence synthesis for organic transformations  \nFunctional group transformations in complex compounds  "
+                    },
+                    "5": {
+                      "description": "Analyzing stereochemical configurations and reaction mechanisms in organic synthesis.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing reaction mechanisms and stereochemical outcomes in organic synthesis.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing reaction mechanisms and stereochemical outcomes in organic synthesis.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing reaction mechanisms and stereochemical outcomes in organic synthesis.",
+                                  "subtrees": 32
+                                },
+                                {
+                                  "description": "Analyzing reaction mechanisms and stereochemical outcomes in organic synthesis.",
+                                  "subtrees": 45
+                                }
+                              ],
+                              "distinguishing": "Mechanism analysis  \nStereochemical evaluation"
+                            },
+                            "1": {
+                              "description": "Analyzing reaction mechanisms and stereochemical outcomes in organic synthesis.",
+                              "subtrees": 12
+                            }
+                          },
+                          "distinguishing": "Mechanism analysis  \nStereochemical evaluation"
+                        },
+                        "1": {
+                          "description": "Analyzing stereochemical configurations and reaction mechanisms in organic synthesis.",
+                          "subtrees": 120
+                        }
+                      },
+                      "distinguishing": "Analyzing reaction mechanisms in organic synthesis  \nEvaluating stereochemical configurations in organic synthesis"
+                    },
+                    "6": {
+                      "description": "Analyzing chemical reaction pathways and molecular structures to accurately count carbon atoms in organic compounds.",
+                      "subtrees": 1
+                    },
+                    "7": {
+                      "description": "Analyzing molecular structures and reaction pathways for synthetic precursor identification and feasibility.",
+                      "subtrees": [
+                        {
+                          "description": "Analyzing molecular structures and reaction pathways for synthetic feasibility.",
+                          "subtrees": 53
+                        },
+                        {
+                          "description": "Analyzing molecular structures and functional groups to identify suitable synthetic precursors.",
+                          "subtrees": 93
+                        }
+                      ],
+                      "distinguishing": "Analyzing molecular structures for synthetic feasibility  \nIdentifying synthetic precursors through functional group analysis"
+                    }
+                  },
+                  "distinguishing": "Predicting organic reaction mechanisms and synthesis pathways.  \nOptimizing synthesis through structural evaluation and reagent selection.  \nIdentifying starting materials for diketone synthesis.  \nPredicting product formation via mechanistic analysis.  \nExecuting complex transformations with multi-step reagents.  \nAnalyzing stereochemistry in organic synthesis.  \nCounting carbon atoms in organic compounds.  \nIdentifying synthetic precursors and assessing feasibility.  "
+                },
+                "1": {
+                  "description": "Evaluating and analyzing chemical reactivity and reaction mechanisms to predict product structures.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing reaction mechanisms and predicting product structures through systematic evaluation of chemical transformations and interactions.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing reaction mechanisms and predicting product formation through various pathways and transformations.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing reaction mechanisms and predicting product formation through functional group transformations and reagent interactions.",
+                              "subtrees": {
+                                "0": {
+                                  "description": "Analyzing reaction mechanisms and predicting product formation based on reagent interactions.",
+                                  "subtrees": 85
+                                },
+                                "1": {
+                                  "description": "Analyzing reaction mechanisms and predicting product formation through functional group transformations and reaction conditions.",
+                                  "subtrees": [
+                                    {
+                                      "description": "Analyzing reaction mechanisms and predicting product formation based on functional group transformations and reaction conditions.",
+                                      "subtrees": 64
+                                    },
+                                    {
+                                      "description": "Analyzing reaction mechanisms and predicting product formation through functional group transformations.",
+                                      "subtrees": 94
+                                    }
+                                  ],
+                                  "distinguishing": "Functional group transformations and reaction conditions analysis.  \nFunctional group transformations analysis."
+                                }
+                              },
+                              "distinguishing": "Reagent interaction analysis for product prediction  \nFunctional group transformation analysis with reaction conditions"
+                            },
+                            "1": {
+                              "description": "Analyzing reaction mechanisms and predicting product formation through substitution and elimination pathways.",
+                              "subtrees": 140
+                            }
+                          },
+                          "distinguishing": "Functional group transformations and reagent interactions  \nSubstitution and elimination pathways"
+                        },
+                        "1": {
+                          "description": "Analyzing reaction mechanisms and predicting product structures through systematic interpretation of chemical transformations.",
+                          "subtrees": 118
+                        },
+                        "2": {
+                          "description": "Analyzing catalyst systems and their interactions to optimize polymerization processes.",
+                          "subtrees": 164
+                        },
+                        "3": {
+                          "description": "Analyzing reaction mechanisms and predicting product structures through thermodynamic and stereochemical considerations.",
+                          "subtrees": [
+                            {
+                              "description": "Analyzing reaction mechanisms and predicting product formation through thermodynamic and stereochemical considerations.",
+                              "subtrees": 48
+                            },
+                            {
+                              "description": "Analyzing reaction mechanisms and predicting product structures through stereochemical considerations.",
+                              "subtrees": 145
+                            }
+                          ],
+                          "distinguishing": "Thermodynamic and stereochemical product prediction  \nStereochemical product structure analysis"
+                        },
+                        "4": {
+                          "description": "Analyzing chemical structures and reaction mechanisms to identify reactants in named reactions.",
+                          "subtrees": 24
+                        },
+                        "5": {
+                          "description": "Analyzing reaction mechanisms and product characteristics through systematic deduction.",
+                          "subtrees": 99
+                        },
+                        "6": {
+                          "description": "Analyzing reaction mechanisms and interpreting chromatographic data to identify product structures.",
+                          "subtrees": 22
+                        },
+                        "7": {
+                          "description": "Analyzing molecular structures and reaction mechanisms for predicting product formation and rearrangement outcomes.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing molecular structures and reaction mechanisms to predict product formation through molecular modeling.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing reaction mechanisms and predicting product structures through molecular modeling.",
+                                  "subtrees": 97
+                                },
+                                {
+                                  "description": "Analyzing molecular structures and reaction mechanisms to predict product formation.",
+                                  "subtrees": 126
+                                }
+                              ],
+                              "distinguishing": "Predicting product structures via reaction mechanisms.  \nAnalyzing molecular structures for product formation."
+                            },
+                            "1": {
+                              "description": "Analyzing molecular structures and reaction mechanisms to predict rearrangement products.",
+                              "subtrees": 185
+                            }
+                          },
+                          "distinguishing": "Molecular modeling for product prediction  \nRearrangement product prediction"
+                        },
+                        "8": {
+                          "description": "Analyzing reaction mechanisms and evaluating product stability based on steric factors.",
+                          "subtrees": 110
+                        }
+                      },
+                      "distinguishing": "Predicting product formation via reaction pathways  \nInterpreting transformations for product structure  \nOptimizing polymerization through catalyst analysis  \nConsidering thermodynamics and stereochemistry  \nIdentifying reactants in named reactions  \nDeducing product characteristics from mechanisms  \nInterpreting chromatographic data for structures  \nPredicting outcomes through molecular analysis  \nEvaluating product stability based on sterics  "
+                    },
+                    "1": {
+                      "description": "Evaluating electronic and steric influences on chemical reactivity and regioselectivity in organic reactions.",
+                      "subtrees": [
+                        {
+                          "description": "Analyzing the electronic effects of substituents on aromatic compounds to predict regioselectivity in electrophilic aromatic substitution reactions.",
+                          "subtrees": 170
+                        },
+                        {
+                          "description": "Evaluating nucleophilic reactivity based on electronic structure and steric factors.",
+                          "subtrees": 189
+                        }
+                      ],
+                      "distinguishing": "Electronic effects on regioselectivity in aromatic substitution  \nNucleophilic reactivity based on electronic and steric factors"
+                    }
+                  },
+                  "distinguishing": "Mechanism analysis and product prediction  \nReactivity evaluation of electronic and steric effects"
+                }
+              },
+              "distinguishing": "Predicting organic reaction mechanisms and synthesis pathways.  \nEvaluating chemical reactivity to predict product structures."
+            },
+            "3": {
+              "description": "Analyzing molecular structures and properties to assess stereochemistry, reactivity, and classification in organic compounds.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing molecular interactions and understanding polarity relationships in organic compounds.",
+                  "subtrees": 39
+                },
+                "1": {
+                  "description": "Analyzing molecular structures for chiral centers and optical activity assessment.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing molecular structures for chiral centers and assessing symmetry to determine optical activity.",
+                      "subtrees": 15
+                    },
+                    {
+                      "description": "Analyzing molecular structures to identify chiral centers and assess optical isomerism.",
+                      "subtrees": 116
+                    }
+                  ],
+                  "distinguishing": "Assessing symmetry for optical activity  \nIdentifying chiral centers and optical isomerism"
+                },
+                "2": {
+                  "description": "Analyzing molecular structures and reaction mechanisms to identify isomer types and deduce their properties.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing molecular structures to identify isomer types and their properties.",
+                      "subtrees": 20
+                    },
+                    {
+                      "description": "Analyzing molecular structures and reaction mechanisms to deduce stereochemistry and isomerism.",
+                      "subtrees": 81
+                    }
+                  ],
+                  "distinguishing": "Identifying isomer types and properties  \nDeducing stereochemistry and isomerism"
+                },
+                "3": {
+                  "description": "Analyzing molecular structures and identifying functional groups for accurate compound classification.",
+                  "subtrees": 8
+                },
+                "4": {
+                  "description": "Analyzing molecular structures to classify and determine symmetry properties.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing molecular structures to determine symmetry properties.",
+                      "subtrees": 30
+                    },
+                    {
+                      "description": "Analyzing molecular structures and symmetry properties to classify point groups.",
+                      "subtrees": 69
+                    }
+                  ],
+                  "distinguishing": "Determining symmetry properties of molecular structures  \nClassifying point groups based on molecular symmetry"
+                },
+                "5": {
+                  "description": "Analyzing molecular structures and applying IUPAC nomenclature rules.",
+                  "subtrees": 42
+                },
+                "6": {
+                  "description": "Analyzing molecular structures and reaction mechanisms to deduce compound properties and molecular weights.",
+                  "subtrees": 147
+                },
+                "7": {
+                  "description": "Analyzing molecular structures to calculate degrees of unsaturation.",
+                  "subtrees": 182
+                },
+                "8": {
+                  "description": "Analyzing molecular structures to identify stereocenters and calculate stereoisomer counts.",
+                  "subtrees": 144
+                },
+                "9": {
+                  "description": "Analyzing chromatographic data to differentiate between enantiomers and diastereomers.",
+                  "subtrees": 155
+                }
+              },
+              "distinguishing": "Analyzing molecular interactions and polarity  \nIdentifying chiral centers and optical activity  \nClassifying isomers and deducing properties  \nIdentifying functional groups for classification  \nDetermining symmetry properties in structures  \nApplying IUPAC nomenclature rules  \nDeducing properties and molecular weights  \nCalculating degrees of unsaturation  \nIdentifying stereocenters and stereoisomer counts  \nDifferentiating enantiomers and diastereomers in chromatographic data  "
+            },
+            "4": {
+              "description": "Analyzing and interpreting spectral and chromatographic data for molecular structure elucidation and reaction pathway prediction.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing spectral data for molecular structure elucidation and functional group identification.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing spectral data to deduce molecular structure and functional group presence.",
+                      "subtrees": 86
+                    },
+                    "1": {
+                      "description": "Analyzing spectral data for molecular structure elucidation and functional group identification.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing spectral data for molecular structure elucidation.",
+                          "subtrees": [
+                            {
+                              "description": "Analyzing spectral data to deduce molecular structure and functional groups.",
+                              "subtrees": 112
+                            },
+                            {
+                              "description": "Analyzing spectral data to deduce molecular structure and functional groups.",
+                              "subtrees": 153
+                            }
+                          ],
+                          "distinguishing": "Deducing molecular structure  \nIdentifying functional groups"
+                        },
+                        "1": {
+                          "description": "Analyzing spectral data to deduce molecular structure and functional groups.",
+                          "subtrees": 98
+                        }
+                      },
+                      "distinguishing": "Molecular structure elucidation  \nStructure and functional group deduction"
+                    },
+                    "2": {
+                      "description": "Analyzing spectral data to identify functional groups and molecular structure.",
+                      "subtrees": 46
+                    }
+                  },
+                  "distinguishing": "Deducing molecular structure and functional groups  \nElucidating molecular structure and identifying functional groups  \nIdentifying functional groups and molecular structure  "
+                },
+                "1": {
+                  "description": "Analyzing spectral data to deduce molecular structures and predict reaction pathways.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing spectral data to deduce molecular structure and reaction pathways.",
+                      "subtrees": 149
+                    },
+                    {
+                      "description": "Analyzing spectral data to deduce molecular structure and predict reaction outcomes.",
+                      "subtrees": 196
+                    }
+                  ],
+                  "distinguishing": "Deducing reaction pathways  \nPredicting reaction outcomes"
+                },
+                "2": {
+                  "description": "Analyzing spectral data and interpreting chemical reactivity patterns.",
+                  "subtrees": 115
+                },
+                "3": {
+                  "description": "Analyzing spectral data to identify isomeric forms in chemical compounds",
+                  "subtrees": 148
+                },
+                "4": {
+                  "description": "Analyzing reaction mechanisms and interpreting spectroscopic data to deduce compound structures.",
+                  "subtrees": 128
+                },
+                "5": {
+                  "description": "Analyzing spectral data to deduce molecular structure and composition.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing spectral data to deduce molecular structure and composition.",
+                      "subtrees": 52
+                    },
+                    {
+                      "description": "Analyzing spectral data to deduce molecular structure.",
+                      "subtrees": 78
+                    }
+                  ],
+                  "distinguishing": "Deducing molecular composition from spectral data  \nDeducing molecular structure from spectral data"
+                },
+                "6": {
+                  "description": "Analyzing chromatographic data to identify and quantify product peaks based on structural differences and stereochemistry.",
+                  "subtrees": 125
+                }
+              },
+              "distinguishing": "Analyzing spectral data for structure and functional groups  \nDeducing structures and predicting reaction pathways  \nInterpreting chemical reactivity patterns from spectra  \nIdentifying isomeric forms in compounds  \nAnalyzing reaction mechanisms with spectroscopic data  \nDeducing molecular structure and composition from spectra  \nQuantifying product peaks in chromatographic data based on structure  "
+            },
+            "5": {
+              "description": "Analyzing and interpreting NMR spectral data to deduce molecular structures and predict chemical environments.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing and interpreting NMR spectral data to deduce molecular structures and predict chemical environment variations.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing molecular structures and predicting NMR signal patterns based on chemical environment variations.",
+                      "subtrees": 36
+                    },
+                    {
+                      "description": "Analyzing NMR spectral data to deduce molecular structure and stereochemistry.",
+                      "subtrees": 54
+                    },
+                    {
+                      "description": "Analyzing NMR spectral data to identify chemical structures and their ratios.",
+                      "subtrees": 131
+                    }
+                  ],
+                  "distinguishing": "Predicting NMR signal patterns from chemical environments  \nDeducing molecular structure and stereochemistry from NMR data  \nIdentifying chemical structures and their ratios in NMR spectra  "
+                },
+                "1": {
+                  "description": "Analyzing NMR spectra to identify chemical shifts, coupling patterns, and hydrogen environments.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing coupling patterns in NMR spectra to identify hydrogen environments and their interactions.",
+                      "subtrees": 88
+                    },
+                    {
+                      "description": "Analyzing NMR spectra to identify and correlate chemical shifts and coupling patterns.",
+                      "subtrees": 130
+                    }
+                  ],
+                  "distinguishing": "Analyzing coupling interactions in hydrogen environments  \nCorrelating chemical shifts with coupling patterns"
+                }
+              },
+              "distinguishing": "Deducing molecular structures and chemical environment variations  \nIdentifying chemical shifts and hydrogen environments"
+            }
+          },
+          "distinguishing": "Determining hydrogen counts and environments in molecular structures.  \nCalculating reactions and their effects on kinetics and thermodynamics.  \nPredicting reactivity and synthesis pathways through structural analysis.  \nAssessing stereochemistry and classification in organic compounds.  \nElucidating structures and predicting pathways from spectral data.  \nDeducing structures and environments from NMR spectral analysis."
+        }
+      },
+      "distinguishing": "Biological data integration for immune and genetic analysis  \nMolecular analysis for predicting chemical behavior"
+    },
+    "1": {
+      "description": "Integrating advanced mathematical techniques and theoretical frameworks to analyze, evaluate, and interpret complex scientific systems across quantum mechanics, thermodynamics, astronomy, and particle interactions.",
+      "subtrees": {
+        "0": {
+          "description": "Applying mathematical reasoning and probabilistic analysis to evaluate and interpret complex systems.",
+          "subtrees": {
+            "0": {
+              "description": "Evaluating complex systems through theoretical analysis and probabilistic reasoning.",
+              "subtrees": [
+                {
+                  "description": "Analyzing theoretical frameworks for their behavior under extreme conditions",
+                  "subtrees": 57
+                },
+                {
+                  "description": "Calculating conditional probabilities based on prior event outcomes.",
+                  "subtrees": 73
+                }
+              ],
+              "distinguishing": "Extreme condition behavior analysis  \nConditional probability calculation"
+            },
+            "1": {
+              "description": "Analyzing and applying mathematical and quantitative techniques for theoretical modeling and data interpretation.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing and applying quantitative techniques for data interpretation and algorithm optimization.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing and applying linear partial fraction decomposition techniques for algorithm optimization",
+                      "subtrees": 83
+                    },
+                    "1": {
+                      "description": "Analyzing and interpreting quantitative data to identify patterns and ensure experimental accuracy.",
+                      "subtrees": [
+                        {
+                          "description": "Analyzing patterns in numerical sequences to derive outputs from given inputs.",
+                          "subtrees": 79
+                        },
+                        {
+                          "description": "Analyzing quantitative data for consistency and accuracy in experimental results",
+                          "subtrees": 92
+                        }
+                      ],
+                      "distinguishing": "Pattern analysis in numerical sequences  \nData consistency and accuracy verification"
+                    }
+                  },
+                  "distinguishing": "Linear partial fraction decomposition for optimization  \nQuantitative data analysis for pattern identification"
+                },
+                "1": {
+                  "description": "Analyzing and evaluating mathematical structures and theoretical models to derive insights and implications.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing complex mathematical structures and symmetries in advanced theoretical frameworks.",
+                      "subtrees": [
+                        {
+                          "description": "Analyzing fundamental symmetries in theoretical frameworks to identify invariant properties of operators.",
+                          "subtrees": 65
+                        },
+                        {
+                          "description": "Analyzing geometric properties of non-Euclidean surfaces through differential geometry techniques.",
+                          "subtrees": 161
+                        }
+                      ],
+                      "distinguishing": "Identifying invariant properties of operators through symmetry analysis  \nExploring geometric properties of non-Euclidean surfaces using differential geometry"
+                    },
+                    "1": {
+                      "description": "Analyzing mathematical relationships to derive structural and functional insights from theoretical models.",
+                      "subtrees": [
+                        {
+                          "description": "Analyzing mathematical expressions to infer structural properties of theoretical models.",
+                          "subtrees": 49
+                        },
+                        {
+                          "description": "Analyzing the relationship between variables in a mathematical model.",
+                          "subtrees": 119
+                        },
+                        {
+                          "description": "Analyzing mathematical relationships between variables to derive functional dependencies.",
+                          "subtrees": 192
+                        }
+                      ],
+                      "distinguishing": "Inferring structural properties from expressions  \nExamining variable relationships in models  \nDeriving functional dependencies between variables  "
+                    },
+                    "2": {
+                      "description": "Evaluating assumptions and their implications in theoretical and practical contexts.",
+                      "subtrees": [
+                        {
+                          "description": "Analyzing assumptions and evaluating their implications in theoretical frameworks.",
+                          "subtrees": 19
+                        },
+                        {
+                          "description": "Analyzing the conditions and assumptions underlying semiconductor equations to evaluate their applicability.",
+                          "subtrees": 181
+                        }
+                      ],
+                      "distinguishing": "Analyzing assumptions in theoretical frameworks  \nEvaluating assumptions in semiconductor equations"
+                    }
+                  },
+                  "distinguishing": "Analyzing advanced mathematical structures and symmetries  \nDeriving insights from mathematical relationships in models  \nEvaluating assumptions and implications in contexts  "
+                }
+              },
+              "distinguishing": "Data interpretation and algorithm optimization  \nMathematical modeling and theoretical evaluation"
+            }
+          },
+          "distinguishing": "Theoretical analysis of complex systems  \nQuantitative modeling and data interpretation"
+        },
+        "1": {
+          "description": "Integrating thermodynamic analysis and stoichiometric calculations to evaluate chemical equilibria and solution properties.",
+          "subtrees": {
+            "0": {
+              "description": "Applying acid-base equilibrium principles and stoichiometric analysis to calculate pH changes in solutions.",
+              "subtrees": [
+                {
+                  "description": "Calculating the resultant pH of a mixed solution by applying acid-base equilibrium principles and stoichiometric analysis.",
+                  "subtrees": 58
+                },
+                {
+                  "description": "Calculating pH changes during titration and applying acid-base equilibrium principles.",
+                  "subtrees": 82
+                }
+              ],
+              "distinguishing": "Resultant pH of mixed solutions  \npH changes during titration"
+            },
+            "1": {
+              "description": "Analyzing thermodynamic systems and applying statistical mechanics to derive equations and partition functions.",
+              "subtrees": [
+                {
+                  "description": "Analyzing thermodynamic relationships and applying the principles of statistical mechanics to derive temperature equations.",
+                  "subtrees": 171
+                },
+                {
+                  "description": "Analyzing thermodynamic systems and applying statistical mechanics principles to derive partition functions.",
+                  "subtrees": 193
+                }
+              ],
+              "distinguishing": "Thermodynamic relationship analysis for temperature equations  \nPartition function derivation using statistical mechanics"
+            },
+            "2": {
+              "description": "Analyzing mass and volume relationships to calculate density accurately.",
+              "subtrees": 9
+            },
+            "3": {
+              "description": "Calculating enthalpy changes through stoichiometric and bond energy analyses using thermodynamic principles.",
+              "subtrees": [
+                {
+                  "description": "Calculating enthalpy changes through bond energy analysis and atomization principles.",
+                  "subtrees": 91
+                },
+                {
+                  "description": "Calculating the enthalpy change through stoichiometric analysis and thermodynamic principles.",
+                  "subtrees": 133
+                }
+              ],
+              "distinguishing": "Bond energy analysis for enthalpy changes  \nStoichiometric analysis for enthalpy changes"
+            },
+            "4": {
+              "description": "Calculating and applying equilibrium constants to determine ion concentrations in solutions and complexation reactions.",
+              "subtrees": [
+                {
+                  "description": "Applying equilibrium constant principles to calculate ion concentrations in complexation reactions.",
+                  "subtrees": 16
+                },
+                {
+                  "description": "Calculating molar concentrations and applying equilibrium constants to determine ion concentrations in solution.",
+                  "subtrees": 132
+                }
+              ],
+              "distinguishing": "Calculate ion concentrations in complexation reactions.  \nDetermine ion concentrations in solution using molar concentrations."
+            }
+          },
+          "distinguishing": "pH calculation using acid-base equilibrium and stoichiometry  \nDeriving equations and partition functions from thermodynamic analysis  \nDensity calculation through mass and volume relationships  \nEnthalpy change calculation via stoichiometry and bond energies  \nEquilibrium constant determination for ion concentrations and complexation"
+        },
+        "2": {
+          "description": "Analyzing and applying advanced mathematical and analytical techniques to interpret and evaluate astronomical and cosmological data in various scientific contexts.",
+          "subtrees": {
+            "0": {
+              "description": "Calculating temperature ratios of celestial bodies through thermal equilibrium and orbital mechanics analysis.",
+              "subtrees": [
+                {
+                  "description": "Applying principles of thermal equilibrium and orbital mechanics to calculate temperature ratios based on albedo and orbital period relationships.",
+                  "subtrees": 70
+                },
+                {
+                  "description": "Calculating the equilibrium temperature ratio based on mass, radius, and albedo of celestial bodies.",
+                  "subtrees": 84
+                }
+              ],
+              "distinguishing": "Albedo and orbital period temperature ratio calculations  \nMass, radius, and albedo equilibrium temperature ratio calculations"
+            },
+            "1": {
+              "description": "Analyzing and applying principles of stellar physics and mathematics to evaluate radiative relationships.",
+              "subtrees": [
+                {
+                  "description": "Analyzing mathematical relationships and applying physical principles to evaluate radiative patterns.",
+                  "subtrees": 174
+                },
+                {
+                  "description": "Applying principles of stellar physics to analyze the relationship between radius, mass, and luminosity in black body radiation.",
+                  "subtrees": 176
+                }
+              ],
+              "distinguishing": "Analyzing mathematical relationships in radiative patterns  \nEvaluating radius, mass, and luminosity in black body radiation"
+            },
+            "2": {
+              "description": "Analyzing and applying mathematical principles of orbital and celestial mechanics to evaluate transit conditions and derive astronomical characteristics.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing celestial mechanics and applying mathematical relationships to derive orbital characteristics and mass ratios in astronomical systems.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing celestial mechanics through spectral line shifts and mathematical relationships to derive orbital periods.",
+                      "subtrees": [
+                        {
+                          "description": "Applying mathematical relationships and principles of celestial mechanics to analyze ratios of physical properties and derive orbital period relationships.",
+                          "subtrees": 41
+                        },
+                        {
+                          "description": "Analyzing periodic shifts in spectral lines to calculate orbital periods of celestial bodies.",
+                          "subtrees": 103
+                        }
+                      ],
+                      "distinguishing": "Deriving orbital period relationships from physical property ratios  \nCalculating orbital periods from spectral line shifts"
+                    },
+                    "1": {
+                      "description": "Applying Kepler's laws of planetary motion and analyzing radial velocity data to calculate mass ratios in binary star systems.",
+                      "subtrees": 163
+                    }
+                  },
+                  "distinguishing": "Spectral analysis for orbital period determination  \nKepler's laws for mass ratio calculation in binaries"
+                },
+                "1": {
+                  "description": "Analyzing orbital mechanics and dynamics to determine transit conditions and probabilities.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing orbital dynamics and transit probabilities based on mass and period relationships.",
+                      "subtrees": 14
+                    },
+                    {
+                      "description": "Analyzing orbital mechanics and applying Kepler's laws to determine transit and occultation conditions.",
+                      "subtrees": 194
+                    }
+                  ],
+                  "distinguishing": "Mass and period relationship analysis  \nKepler's laws application for transit conditions"
+                }
+              },
+              "distinguishing": "Deriving orbital characteristics and mass ratios  \nDetermining transit conditions and probabilities"
+            },
+            "3": {
+              "description": "Applying advanced mathematical techniques to analyze spatial relationships and interactions in scientific contexts.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing and calculating particle interactions and observational parameters in astrophysical contexts.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Calculating the minimum spatial resolution required for observing particle decay events based on lifetime and energy parameters.",
+                      "subtrees": 68
+                    },
+                    "1": {
+                      "description": "Analyzing particle interactions and energy distributions in astrophysical contexts.",
+                      "subtrees": [
+                        {
+                          "description": "Calculating threshold energies for particle interactions in astrophysical contexts.",
+                          "subtrees": 6
+                        },
+                        {
+                          "description": "Analyzing neutrino energy distributions and calculating flux ratios based on nuclear reaction contributions.",
+                          "subtrees": 180
+                        }
+                      ],
+                      "distinguishing": "Threshold energy calculations for particle interactions  \nNeutrino energy distribution analysis and flux ratio calculations"
+                    }
+                  },
+                  "distinguishing": "Minimum spatial resolution for particle decay observation  \nAnalysis of particle interactions and energy distributions"
+                },
+                "1": {
+                  "description": "Calculating interplanar distances using crystallographic parameters and geometric relationships.",
+                  "subtrees": 187
+                }
+              },
+              "distinguishing": "Astrophysical particle interaction analysis  \nCrystallographic distance calculation"
+            },
+            "4": {
+              "description": "Calculating and analyzing atomic compositions and temperature effects in stellar environments.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing the effects of temperature variations on atomic population ratios in stellar atmospheres.",
+                  "subtrees": 51
+                },
+                "1": {
+                  "description": "Calculating and analyzing elemental and isotopic compositions through logarithmic transformations and atomic mass evaluations.",
+                  "subtrees": [
+                    {
+                      "description": "Calculating elemental abundance ratios using logarithmic transformations and stellar mass relationships.",
+                      "subtrees": 17
+                    },
+                    {
+                      "description": "Analyzing isotopic compositions and calculating cumulative atomic masses based on elemental properties.",
+                      "subtrees": 139
+                    }
+                  ],
+                  "distinguishing": "Elemental abundance ratios via logarithmic transformations  \nIsotopic composition analysis and cumulative atomic mass calculation"
+                }
+              },
+              "distinguishing": "Temperature effects on atomic ratios  \nElemental and isotopic composition analysis"
+            },
+            "5": {
+              "description": "Evaluating and analyzing astronomical data to determine object characteristics and detectability.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing celestial observations to determine sizes and distances through photometric data and magnitude calculations.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing photometric data to calculate relative sizes of celestial bodies based on brightness variations.",
+                      "subtrees": 104
+                    },
+                    {
+                      "description": "Analyzing apparent and absolute magnitudes while accounting for distance and absorption effects to determine observational feasibility.",
+                      "subtrees": 109
+                    }
+                  ],
+                  "distinguishing": "Calculating sizes from brightness variations  \nDetermining feasibility through magnitude analysis"
+                },
+                "1": {
+                  "description": "Evaluating the detectability of astronomical objects based on their luminosity, distance, and the capabilities of observational instruments.",
+                  "subtrees": 186
+                },
+                "2": {
+                  "description": "Analyzing spectral data to identify characteristics of interstellar matter.",
+                  "subtrees": 35
+                }
+              },
+              "distinguishing": "Determining sizes and distances from photometric data  \nAssessing object detectability via luminosity and instrument capability  \nIdentifying interstellar matter characteristics through spectral analysis  "
+            },
+            "6": {
+              "description": "Applying advanced analytical techniques to interpret cosmological data and light-matter interactions.",
+              "subtrees": {
+                "0": {
+                  "description": "Calculating and analyzing the interactions of light with matter to understand redshift and color perception.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing the relationship between photon energy and color perception in the visible spectrum.",
+                      "subtrees": 29
+                    },
+                    {
+                      "description": "Calculating redshift values based on wavelength absorption and emission principles.",
+                      "subtrees": 129
+                    }
+                  ],
+                  "distinguishing": "Photon energy and visible color correlation  \nRedshift calculation from wavelength changes"
+                },
+                "1": {
+                  "description": "Applying cosmological principles to calculate comoving distances based on redshift and the parameters of the Lambda-CDM model.",
+                  "subtrees": 158
+                }
+              },
+              "distinguishing": "Light-matter interaction analysis for redshift and color perception  \nCosmological distance calculations using redshift and Lambda-CDM parameters"
+            },
+            "7": {
+              "description": "Calculating the number of revolutions in a particle accelerator by analyzing energy gain and frequency of oscillation.",
+              "subtrees": 136
+            }
+          },
+          "distinguishing": "Calculating temperature ratios in celestial bodies  \nEvaluating radiative relationships in stellar physics  \nDeriving astronomical characteristics from orbital mechanics  \nAnalyzing spatial relationships in scientific contexts  \nAssessing atomic compositions in stellar environments  \nDetermining object characteristics from astronomical data  \nInterpreting cosmological data and light-matter interactions  \nCalculating particle accelerator revolutions through energy analysis  "
+        },
+        "3": {
+          "description": "Applying advanced quantum mechanics and linear algebra techniques to analyze uncertainty and compute properties of quantum systems.",
+          "subtrees": {
+            "0": {
+              "description": "Analyzing and calculating quantum mechanical systems and properties using linear algebra techniques.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing and calculating quantum mechanical properties and transitions across various systems and conditions.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing quantum angular momentum states and calculating joint probabilities for eigenvalue measurements.",
+                      "subtrees": 66
+                    },
+                    "1": {
+                      "description": "Applying quantum mechanics to analyze and calculate energy levels and eigenvalues in multi-particle systems.",
+                      "subtrees": [
+                        {
+                          "description": "Applying quantum mechanics principles to analyze potential energy functions and derive energy eigenvalues.",
+                          "subtrees": 5
+                        },
+                        {
+                          "description": "Applying quantum mechanical principles to calculate energy levels in a multi-particle system.",
+                          "subtrees": 44
+                        }
+                      ],
+                      "distinguishing": "Analyzing potential energy functions for eigenvalues  \nCalculating energy levels in multi-particle systems"
+                    },
+                    "2": {
+                      "description": "Analyzing quantum mechanical systems through matrix operations and density matrix properties.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing the properties of density matrices in quantum mechanics.",
+                          "subtrees": 141
+                        },
+                        "1": {
+                          "description": "Analyzing quantum mechanical systems through matrix exponentiation and operator relationships.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Analyzing matrix exponentiation and its implications in quantum mechanics.",
+                              "subtrees": 178
+                            },
+                            "1": {
+                              "description": "Analyzing quantum mechanical operators and eigenvalue equations to understand their interrelationships.",
+                              "subtrees": [
+                                {
+                                  "description": "Analyzing eigenvalue equations and understanding the relationships between operators in quantum mechanics.",
+                                  "subtrees": 34
+                                },
+                                {
+                                  "description": "Analyzing quantum mechanical operators and calculating their eigenvalues.",
+                                  "subtrees": 184
+                                }
+                              ],
+                              "distinguishing": "Analyzing eigenvalue equations in quantum mechanics  \nCalculating eigenvalues of quantum operators"
+                            }
+                          },
+                          "distinguishing": "Matrix exponentiation in quantum mechanics  \nQuantum operators and eigenvalue relationships"
+                        }
+                      },
+                      "distinguishing": "Density matrix property analysis  \nMatrix exponentiation and operator analysis"
+                    },
+                    "3": {
+                      "description": "Analyzing mass dimensions and assessing renormalizability in quantum field theories.",
+                      "subtrees": 177
+                    },
+                    "4": {
+                      "description": "Analyzing the dynamics of quantum systems under varying external magnetic fields.",
+                      "subtrees": 67
+                    },
+                    "5": {
+                      "description": "Applying conservation laws of angular momentum and parity to analyze quantum state transitions.",
+                      "subtrees": 108
+                    },
+                    "6": {
+                      "description": "Analyzing quantum mechanical transition probabilities through dipole selection rules.",
+                      "subtrees": 55
+                    },
+                    "7": {
+                      "description": "Calculating the momentum of photons based on energy transitions in quantum mechanical systems.",
+                      "subtrees": 62
+                    },
+                    "8": {
+                      "description": "Analyzing and comparing energy scales in quantum systems.",
+                      "subtrees": 107
+                    },
+                    "9": {
+                      "description": "Analyzing quantum mechanical systems and applying the principles of harmonic oscillators to determine energy levels and degeneracies.",
+                      "subtrees": 124
+                    }
+                  },
+                  "distinguishing": "Analyzing angular momentum states and joint probabilities  \nCalculating energy levels in multi-particle systems  \nMatrix operations and density matrix analysis  \nAssessing renormalizability in quantum field theories  \nDynamics of quantum systems in magnetic fields  \nApplying conservation laws to state transitions  \nAnalyzing transition probabilities via dipole rules  \nCalculating photon momentum from energy transitions  \nComparing energy scales in quantum systems  \nApplying harmonic oscillator principles to energy levels  "
+                },
+                "1": {
+                  "description": "Calculating and analyzing quantum mechanical systems using matrix representations and linear algebra techniques.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Utilizing mathematical and linear algebra techniques for quantum mechanics analysis and eigenvector normalization.",
+                      "subtrees": [
+                        {
+                          "description": "Applying linear algebra techniques to compute eigenvectors and normalize them in quantum mechanics.",
+                          "subtrees": 4
+                        },
+                        {
+                          "description": "Applying mathematical modeling and wave function normalization techniques to derive constants in quantum mechanics.",
+                          "subtrees": 38
+                        }
+                      ],
+                      "distinguishing": "Eigenvector computation and normalization in quantum mechanics  \nWave function modeling and constant derivation in quantum mechanics"
+                    },
+                    "1": {
+                      "description": "Calculating probabilities and expectation values in quantum mechanical systems through matrix representations and eigenvalue analysis.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Calculating uncertainties and probabilities in quantum mechanical systems through matrix representations and eigenvalue analysis.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Calculating the uncertainty of an observable in a quantum mechanical system using matrix representations and eigenstate properties.",
+                              "subtrees": 154
+                            },
+                            "1": {
+                              "description": "Calculating probabilities through linear algebra and eigenvalue analysis in quantum mechanics.",
+                              "subtrees": [
+                                {
+                                  "description": "Applying linear algebra techniques to compute probabilities from quantum state vectors and observable operators.",
+                                  "subtrees": 150
+                                },
+                                {
+                                  "description": "Calculating probabilities using matrix representations and eigenvalue analysis in quantum mechanics.",
+                                  "subtrees": 175
+                                }
+                              ],
+                              "distinguishing": "Computing probabilities from quantum state vectors  \nUsing matrix representations and eigenvalue analysis"
+                            }
+                          },
+                          "distinguishing": "Observable uncertainty calculation using matrix representations.  \nProbability determination through linear algebra and eigenvalue analysis."
+                        },
+                        "1": {
+                          "description": "Calculating expectation values and probabilities using quantum mechanical principles and operators.",
+                          "subtrees": {
+                            "0": {
+                              "description": "Calculating expectation values and probabilities using quantum mechanics principles.",
+                              "subtrees": [
+                                {
+                                  "description": "Applying quantum mechanics principles to calculate expectation values of operators in a given state.",
+                                  "subtrees": 2
+                                },
+                                {
+                                  "description": "Applying quantum mechanics principles to calculate probabilities and expectation values from state vectors and operators.",
+                                  "subtrees": 111
+                                }
+                              ],
+                              "distinguishing": "Calculate expectation values of operators.  \nCalculate probabilities from state vectors and operators."
+                            },
+                            "1": {
+                              "description": "Calculating expectation values using quantum mechanical operators and state vectors.",
+                              "subtrees": 169
+                            }
+                          },
+                          "distinguishing": "Calculating probabilities with quantum principles  \nCalculating expectation values with operators and state vectors"
+                        }
+                      },
+                      "distinguishing": "Calculating uncertainties and probabilities via matrix analysis  \nCalculating expectation values using quantum operators"
+                    }
+                  },
+                  "distinguishing": "Quantum mechanics analysis with linear algebra techniques  \nProbability and expectation value calculations in quantum systems"
+                }
+              },
+              "distinguishing": "Quantum properties and transitions analysis  \nMatrix-based quantum system calculations"
+            },
+            "1": {
+              "description": "Applying advanced quantum mechanics to analyze uncertainty and compute non-Gaussianity through relative entropy measures.",
+              "subtrees": {
+                "0": {
+                  "description": "Applying advanced quantum mechanics principles to compute non-Gaussianity using relative entropy measures.",
+                  "subtrees": 166
+                },
+                "1": {
+                  "description": "Applying quantum mechanics to analyze uncertainty and energy differences.",
+                  "subtrees": [
+                    {
+                      "description": "Applying the principles of quantum mechanics to calculate energy differences based on lifetime and resolution criteria.",
+                      "subtrees": 0
+                    },
+                    {
+                      "description": "Applying principles of quantum mechanics to calculate uncertainty relationships.",
+                      "subtrees": 172
+                    }
+                  ],
+                  "distinguishing": "Calculate energy differences using lifetime and resolution.  \nDetermine uncertainty relationships in quantum mechanics."
+                }
+              },
+              "distinguishing": "Compute non-Gaussianity via relative entropy.  \nAnalyze uncertainty and energy differences."
+            }
+          },
+          "distinguishing": "Quantum system analysis with linear algebra  \nUncertainty analysis using relative entropy measures"
+        },
+        "4": {
+          "description": "Integrating advanced mathematical techniques and theoretical frameworks to analyze and solve complex scientific phenomena across wave dynamics, relativistic effects, electrostatics, and particle interactions.",
+          "subtrees": {
+            "0": {
+              "description": "Integrating advanced mathematical concepts and theoretical physics principles to solve complex scientific problems.",
+              "subtrees": [
+                {
+                  "description": "Applying advanced concepts of black hole thermodynamics and entropy calculations.",
+                  "subtrees": 95
+                },
+                {
+                  "description": "Applying the divergence theorem to evaluate volume integrals of vector fields.",
+                  "subtrees": 135
+                }
+              ],
+              "distinguishing": "Black hole thermodynamics and entropy analysis  \nDivergence theorem for vector field integrals"
+            },
+            "1": {
+              "description": "Analyzing and applying advanced theoretical frameworks to interpret relativistic phenomena and particle dynamics.",
+              "subtrees": {
+                "0": {
+                  "description": "Applying relativistic time dilation principles to calculate perceived travel time in high-speed scenarios.",
+                  "subtrees": 59
+                },
+                "1": {
+                  "description": "Analyzing and applying advanced theoretical frameworks to interpret particle behavior and mass dynamics in quantum and relativistic contexts.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Analyzing and applying relativistic principles to calculate and interpret the behavior of particles and energy in various reference frames.",
+                      "subtrees": {
+                        "0": {
+                          "description": "Analyzing and applying relativistic dynamics and classical mechanics to understand the relationships between force, mass, velocity, and energy-momentum in moving bodies.",
+                          "subtrees": [
+                            {
+                              "description": "Applying relativistic velocity addition and energy-momentum principles to analyze and calculate the dynamics of moving bodies.",
+                              "subtrees": 72
+                            },
+                            {
+                              "description": "Analyzing relativistic dynamics and applying principles of classical mechanics to derive relationships between force, mass, and velocity.",
+                              "subtrees": 195
+                            }
+                          ],
+                          "distinguishing": "Relativistic velocity and energy-momentum analysis  \nClassical mechanics and force-mass-velocity relationships"
+                        },
+                        "1": {
+                          "description": "Calculating relativistic kinetic energy through conservation principles and transformations.",
+                          "subtrees": [
+                            {
+                              "description": "Calculating kinetic energy using conservation of energy principles and relativistic mass-energy equivalence.",
+                              "subtrees": 11
+                            },
+                            {
+                              "description": "Calculating relativistic kinetic energy using Lorentz transformations and conservation principles.",
+                              "subtrees": 31
+                            }
+                          ],
+                          "distinguishing": "Kinetic energy via conservation of energy and mass-energy equivalence  \nRelativistic kinetic energy using Lorentz transformations"
+                        },
+                        "2": {
+                          "description": "Applying relativistic energy and momentum conservation principles to analyze and calculate particle interactions.",
+                          "subtrees": [
+                            {
+                              "description": "Applying relativistic energy and momentum conservation principles to analyze particle interactions.",
+                              "subtrees": 146
+                            },
+                            {
+                              "description": "Applying relativistic energy-momentum conservation principles to analyze particle interactions and calculate kinetic energy differences.",
+                              "subtrees": 173
+                            }
+                          ],
+                          "distinguishing": "Analyzing particle interactions using energy and momentum conservation  \nCalculating kinetic energy differences in particle interactions"
+                        },
+                        "3": {
+                          "description": "Analyzing the implications of theoretical modifications to fundamental physical laws.",
+                          "subtrees": 3
+                        },
+                        "4": {
+                          "description": "Applying principles of relativistic velocity addition to analyze the behavior of light in moving media.",
+                          "subtrees": 40
+                        },
+                        "5": {
+                          "description": "Calculating relative motion and distance using time and velocity in inertial reference frames.",
+                          "subtrees": 122
+                        },
+                        "6": {
+                          "description": "Analyzing relativistic energy conservation and momentum vector components to determine resultant angles.",
+                          "subtrees": 114
+                        },
+                        "7": {
+                          "description": "Applying relativistic physics principles to analyze particle decay and trajectory calculations.",
+                          "subtrees": 123
+                        }
+                      },
+                      "distinguishing": "Relativistic dynamics and classical mechanics integration  \nRelativistic kinetic energy calculations  \nEnergy and momentum conservation in particle interactions  \nTheoretical modifications to physical laws analysis  \nRelativistic velocity addition in light behavior  \nRelative motion and distance in inertial frames  \nEnergy conservation and momentum vector analysis  \nParticle decay and trajectory calculations in relativity  "
+                    },
+                    "1": {
+                      "description": "Analyzing radiative corrections in quantum field theory to derive mass approximations for pseudo-Goldstone bosons.",
+                      "subtrees": 165
+                    }
+                  },
+                  "distinguishing": "Relativistic particle behavior across reference frames  \nMass approximations for pseudo-Goldstone bosons"
+                }
+              },
+              "distinguishing": "Calculating travel time using time dilation  \nInterpreting particle behavior in quantum and relativistic contexts"
+            },
+            "2": {
+              "description": "Analyzing and applying mathematical principles of electrostatics and electromagnetism to model interactions and derive potentials.",
+              "subtrees": {
+                "0": {
+                  "description": "Applying mathematical principles of electromagnetism to derive scalar and vector potentials from the motion of a point charge.",
+                  "subtrees": 77
+                },
+                "1": {
+                  "description": "Analyzing and calculating electrostatic interactions and potential energy through mathematical modeling and principles of symmetry.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Calculating electrostatic potential energy using Coulomb's law and applying principles of symmetry in charge distributions.",
+                      "subtrees": 179
+                    },
+                    "1": {
+                      "description": "Analyzing charge distributions and potential energy interactions using electrostatic principles and mathematical modeling.",
+                      "subtrees": [
+                        {
+                          "description": "Applying electrostatic principles and mathematical modeling to analyze potential energy interactions in charged systems.",
+                          "subtrees": 50
+                        },
+                        {
+                          "description": "Applying principles of electrostatics to analyze charge distributions and calculate electric fields.",
+                          "subtrees": 191
+                        }
+                      ],
+                      "distinguishing": "Analyzing potential energy interactions in charged systems  \nCalculating electric fields from charge distributions"
+                    }
+                  },
+                  "distinguishing": "Calculating potential energy with Coulomb's law and symmetry.  \nAnalyzing charge distributions and interactions through electrostatics."
+                }
+              },
+              "distinguishing": "Deriving potentials from point charge motion  \nCalculating electrostatic interactions and potential energy"
+            },
+            "3": {
+              "description": "Analyzing complex wave phenomena through advanced mathematical techniques and optical principles.",
+              "subtrees": [
+                {
+                  "description": "Applying advanced mathematical techniques to analyze phase shifts and extract scattering amplitudes.",
+                  "subtrees": 56
+                },
+                {
+                  "description": "Applying principles of wave optics and mathematical approximation techniques to analyze diffraction patterns.",
+                  "subtrees": 159
+                }
+              ],
+              "distinguishing": "Analyzing phase shifts and scattering amplitudes  \nExamining diffraction patterns using wave optics"
+            },
+            "4": {
+              "description": "Analyzing and calculating particle interactions and decay dynamics through symmetry principles and conservation laws.",
+              "subtrees": {
+                "0": {
+                  "description": "Analyzing and calculating particle decay dynamics through conservation laws and relativistic relations.",
+                  "subtrees": {
+                    "0": {
+                      "description": "Calculating the mean decay distance using relativistic energy-momentum relations and decay width formulas.",
+                      "subtrees": 143
+                    },
+                    "1": {
+                      "description": "Analyzing conservation laws in particle decay and interactions.",
+                      "subtrees": [
+                        {
+                          "description": "Analyzing particle interactions and applying conservation laws to identify decay channels.",
+                          "subtrees": 134
+                        },
+                        {
+                          "description": "Analyzing energy conservation principles and their implications on particle decay processes.",
+                          "subtrees": 168
+                        }
+                      ],
+                      "distinguishing": "Identifying decay channels through particle interactions  \nExamining energy conservation in decay processes"
+                    }
+                  },
+                  "distinguishing": "Mean decay distance calculation  \nConservation laws analysis in decay"
+                },
+                "1": {
+                  "description": "Analyzing particle interactions and symmetry principles in physics.",
+                  "subtrees": [
+                    {
+                      "description": "Analyzing the effects of particle interactions on mean free path calculations in varying conditions.",
+                      "subtrees": 160
+                    },
+                    {
+                      "description": "Analyzing the implications of symmetry principles in particle physics.",
+                      "subtrees": 188
+                    }
+                  ],
+                  "distinguishing": "Mean free path analysis in particle interactions  \nSymmetry implications in particle physics"
+                }
+              },
+              "distinguishing": "Particle decay dynamics and conservation laws  \nParticle interactions and symmetry principles"
+            }
+          },
+          "distinguishing": "Solving scientific problems with advanced mathematics and physics.  \nInterpreting relativistic phenomena and particle dynamics.  \nModeling electrostatics and electromagnetism interactions.  \nAnalyzing complex wave phenomena with optical principles.  \nCalculating particle interactions and decay dynamics.  "
+        }
+      },
+      "distinguishing": "Probabilistic analysis of complex systems  \nThermodynamic evaluation of chemical equilibria  \nInterpretation of astronomical data  \nQuantum mechanics and uncertainty analysis  \nMathematical solutions for scientific phenomena  "
+    }
+  },
+  "distinguishing": "Molecular and biological data integration for chemical and genetic analysis  \nMathematical techniques for complex scientific system evaluation"
+}

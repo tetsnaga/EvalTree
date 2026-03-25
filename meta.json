@@ -1,0 +1,63 @@
+{
+  "MATH-Hard": {
+    "path": "data/MATH-Hard.json",
+    "metrics": "Accuracy",
+    "url": "https://huggingface.co/datasets/lighteval/MATH-Hard",
+    "models": [
+      "Qwen__Qwen2.5-72B-Instruct",
+      "Qwen__Qwen2.5-14B-Instruct",
+      "Qwen__Qwen2-Math-72B-Instruct",
+      "Qwen__Qwen2.5-Math-72B-Instruct",
+      "Qwen__Qwen2.5-Math-7B-Instruct",
+      "deepseek-ai__DeepSeek-R1-Distill-Qwen-14B",
+      "meta-llama__Llama-3.1-70B-Instruct",
+      "meta-llama__Llama-3.1-8B-Instruct",
+      "mistralai__Mistral-7B-Instruct-v0.3"
+    ]
+  },
+  "MMLU-Pro": {
+    "path": "data/MMLU-Pro.json",
+    "metrics": "Accuracy",
+    "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+    "models": [
+      "Qwen__Qwen2.5-72B-Instruct",
+      "Qwen__Qwen2.5-14B-Instruct",
+      "Qwen__Qwen2-Math-72B-Instruct",
+      "Qwen__Qwen2.5-Math-72B-Instruct",
+      "Qwen__Qwen2.5-Math-7B-Instruct",
+      "nvidia__Llama-3.1-Nemotron-70B-Instruct-HF",
+      "mistralai__Mistral-Large-Instruct-2411",
+      "allenai__Llama-3.1-Tulu-3-70B"
+    ]
+  },
+  "BBH": {
+    "path": "data/BBH.json",
+    "metrics": "Accuracy",
+    "url": "https://huggingface.co/datasets/lukaemon/bbh",
+    "models": [
+      "Qwen__Qwen2.5-72B-Instruct",
+      "Qwen__Qwen2.5-14B-Instruct",
+      "Qwen__Qwen2-Math-72B-Instruct",
+      "Qwen__Qwen2.5-Math-72B-Instruct",
+      "deepseek-ai__DeepSeek-R1-Distill-Qwen-14B",
+      "meta-llama__Llama-3.1-70B-Instruct",
+      "meta-llama__Llama-3.1-8B-Instruct",
+      "nvidia__Llama-3.1-Nemotron-70B-Instruct-HF",
+      "mistralai__Mistral-7B-Instruct-v0.3"
+    ]
+  },
+  "GPQA": {
+    "path": "data/GPQA.json",
+    "metrics": "Accuracy",
+    "url": "https://huggingface.co/datasets/Idavidrein/gpqa",
+    "models": [
+      "Qwen__Qwen2.5-72B-Instruct",
+      "Qwen__Qwen2.5-14B-Instruct",
+      "Qwen__Qwen2-Math-72B-Instruct",
+      "Qwen__Qwen2.5-Math-72B-Instruct",
+      "Qwen__Qwen2.5-Math-7B-Instruct",
+      "meta-llama__Llama-3.1-70B-Instruct",
+      "mistralai__Mistral-7B-Instruct-v0.3"
+    ]
+  }
+}
